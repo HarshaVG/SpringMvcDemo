@@ -94,6 +94,10 @@
 				<!-- <version>9.2.11.v20150529</version> -->
 				<version>9.4.0.M1</version>
 				<configuration>
+<httpConnector>
+          <!--host>localhost</host-->
+          <port>9999</port>
+        </httpConnector>
 					<scanIntervalSeconds>10</scanIntervalSeconds>
 					<webApp>
 						<contextPath>/springmvc</contextPath>
